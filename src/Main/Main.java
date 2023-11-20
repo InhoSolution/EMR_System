@@ -34,7 +34,7 @@ public class Main extends JFrame
 		setExtendedState(JFrame.MAXIMIZED_BOTH); 
 		setTitle("EMR Text");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setVisible(true);
+		//setVisible(true);
 		DataBaseManager.Instacne();
 		EnterPane(new LoginLayout()); // 시작 팬 연결
 	}
